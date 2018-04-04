@@ -1,4 +1,4 @@
-FROM flutter-build-docker:ubuntu-standalone
+FROM runmymind/docker-android-sdk:ubuntu-standalone
 
 WORKDIR /
 RUN apt install git -y
